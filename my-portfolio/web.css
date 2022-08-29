@@ -1,0 +1,118 @@
+body {
+    height: auto;
+    background: #c31432; 
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+    background: linear-gradient( 121deg, #240b36, #c31432); }
+/* navbar styling */
+
+#nav-bar span{
+  color: orangered;
+  font-size: 30px;
+}
+#nav-bar ul .active .nav-link {
+  color: orangered;
+}
+
+#nav-bar .nav-link
+{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+} 
+#nav-bar .social-links a{
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+}
+#nav-bar .dropdown-menu{
+  border: 2px solid #c31432;
+  background: linear-gradient( to left, #240b36, #c31432);
+ }
+
+/* Banner styling */
+
+#banner{
+  background: rgba(0, 255, 242, 0.1);
+  border: 0 0 30% 40% ;
+     }
+
+#banner .banner-content{
+  margin-top: 20px;
+}
+#banner .banner-content button{
+  border: 1px solid white;
+  background: linear-gradient( 110deg, #240b36, #c31432);
+  font-size: 20px;
+
+}
+
+#banner img{
+  margin-left: 0px;
+  height: 350px; 
+  margin-bottom: 100px;
+}
+ /* Web code styling */
+/* Scroll Styling */
+#scroll .box{
+  width: 320px;
+  height: 400px;
+  background-position: top;
+  transition: ease-in-out 8s;
+  border: 2px dashed black;
+}
+#scroll .box:hover{
+  background-position: bottom;
+}
+#scroll .box1{   
+    background: url(images/webimages/getsale.png);
+    background-size: cover;
+}
+#scroll .box2{   
+  background: url(images/webimages/core-construct.png);
+  background-size: cover;
+}
+#scroll .box3{   
+  background: url(images/webimages/web1.jpeg);
+  background-size: cover;
+}
+#scroll .box4{   
+  background: url(images/webimages/getheal.png);
+  background-size: cover;
+}
+#scroll .box5{   
+  background: url(images/webimages/yum-yum.png);
+  background-size: cover;
+}
+#scroll .box6{   
+  background: url(images/webimages/pf1.png);
+  background-size: cover;
+}
+
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:992px){
+    #nav-bar .nav-link
+{
+    font-size: 14px;    
+    color: bla;
+}
+#nav-bar .social-links a{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+}
+/* Footer styling */
+#footer .fa-ul .f-icon{
+  padding-right: 8000px;
+}
+
+#footer img{
+      border-radius: 10%;
+      margin-top: 10px;
+      border-left:5px solid white;
+      border-right: 5px solid white;
+      
+}

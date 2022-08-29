@@ -1,0 +1,159 @@
+body{
+    height: auto;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient( 121deg, #240b36, #c31432);
+}
+#nav-bar span{
+  color: orangered;
+  font-size: 30px;
+}
+#nav-bar ul .active .nav-link {
+  color: orangered;
+}
+
+#nav-bar .nav-link
+{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+} 
+#nav-bar .social-links a{
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+}
+/* Banner styling */
+#banner{
+    background: rgba(0, 255, 242, 0.1);
+    border: 0 0 30% 40% ;
+    height: auto;
+  } 
+  #banner .banner-content{
+    margin-top: 20px;
+  }
+ #banner .banner-content button{
+    border: 1px solid white;
+    background: linear-gradient( 110deg, #240b36, #c31432);
+    font-size: 20px;
+
+ }
+  
+  #banner img{
+    margin-left: 0px;
+    height: 350px; 
+    margin-bottom: 100px;
+  }
+
+/* graphivs portfolio styling */
+ * {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  /* max-width: 1000px; */
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+       
+          
+/* Style the buttons */
+#myBtnContainer .btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-color: orangered;
+  color: white;
+  /* border: 10px solid white; */
+}         
+/* Add a grey background color on mouse-over */
+#myBtnContainer .btn:hover {
+  background-color: rgba(255, 69, 0, 0.3);
+}
+
+/* Add a dark background color to the active button */
+#myBtnContainer .btn.actives {
+  background-color: orangered;
+   color: white;
+}
+/* Footer styling */
+#footer .fa-ul .f-icon{
+    padding-right: 8000px;
+}
+
+#footer img{
+        border-radius: 10%;
+        margin-top: 10px;
+        border-left:5px solid white;
+        border-right: 5px solid white;
+        
+}
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:992px){
+    #nav-bar .nav-link
+{
+    font-size: 14px;    
+    color: bla;
+}
+#nav-bar .social-links a{
+    font-size: 25px;
+    padding-left: 5px;
+}
+#footer img{
+    margin-top: 80px;
+}
+
+
+}
+@media(min-width:375px) and (max-width:768px){
+
+    #banner .banner-content{
+        margin: 30px 0px 30px 60px;
+      }
+}
+
+@media(min-width:320px) and (max-width:423px){
+
+  
+}

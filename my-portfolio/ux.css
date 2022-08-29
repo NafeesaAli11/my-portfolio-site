@@ -1,0 +1,198 @@
+body {
+    height: auto;
+    background: #c31432; 
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+    background: linear-gradient( 121deg, #240b36, #c31432); }
+/* navbar styling */
+
+#nav-bar span{
+  color: orangered;
+  font-size: 30px;
+}
+#nav-bar ul .active .nav-link {
+  color: orangered;
+}
+
+#nav-bar .nav-link
+{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+} 
+#nav-bar .social-links a{
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+}
+#nav-bar .dropdown-menu{
+  border: 2px solid #c31432;
+  background: linear-gradient( to left, #240b36, #c31432);
+ }
+
+/* Banner styling */
+
+#banner{
+  background: rgba(0, 255, 242, 0.1);
+  border: 0 0 30% 40% ;
+     }
+
+#banner .banner-content{
+  margin-top: 20px;
+}
+#banner .banner-content button{
+  border: 1px solid white;
+  background: linear-gradient( 110deg, #240b36, #c31432);
+  font-size: 20px;
+
+}
+
+#banner img{
+  margin-left: 0px;
+  height: 350px; 
+  margin-bottom: 100px;
+}
+ /* ux code styling */
+
+/* Gallery Styling */
+/* Style the Image Used to Trigger the Modal */
+/* Image no 1 */
+#myImg1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg1:hover {opacity: 0.7;}
+/* Image no 2 */
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg2:hover {opacity: 0.7;}
+/* Image no 3 */
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg3:hover {opacity: 0.7;}
+/* Image no 4 */
+#myImg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg4:hover {opacity: 0.7;}
+/* Image no 5 */
+#myImg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg5:hover {opacity: 0.7;}
+/* Image no 4 */
+#myImg6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg6:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: relative;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:992px){
+    #nav-bar .nav-link
+{
+    font-size: 14px;    
+    color: bla;
+}
+#nav-bar .social-links a{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+}
+/* Footer styling */
+#footer .fa-ul .f-icon{
+  padding-right: 8000px;
+}
+
+#footer img{
+      border-radius: 10%;
+      margin-top: 10px;
+      border-left:5px solid white;
+      border-right: 5px solid white;
+      
+}

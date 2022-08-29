@@ -1,0 +1,167 @@
+body{
+    height: auto;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient( 121deg, #240b36, #c31432);
+}
+#nav-bar .nav-link
+{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+} 
+#nav-bar .social-links a{
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+}
+.main{
+    background-image: url('images/banner1.png');
+    background-size: cover;
+    background-position: center;
+}
+/* banner */
+#banner .banner-content h2{
+    background-color: rgba(255, 68, 0, 0.5);
+    padding: 20px;
+    color: #c31432;
+}
+#banner .banner-content p{
+    background-color: rgba(255, 68, 0, 0.5);
+    padding: 20px;
+}
+#banner .banner-content button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient( 121deg, orangered ,#c31432);}
+#banner .banner-content button:hover{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid  white;
+    background-color: none;
+}
+
+/* about */
+#about{
+    margin: 50px 0;
+}
+#about .col-md-6{
+background: linear-gradient( 121deg, #240b36, #c31432);
+}
+#about .about-content{
+    padding: 100px 0;
+}
+#about a{
+    border: 2px solid white;
+    background: linear-gradient( 121deg, #240b36, #c31432);
+
+}
+#about a:hover{
+    font-size: large;
+
+}
+#about .about-content .fa{
+    color: white;
+    font-size: 50px;
+    /* padding-left: 20px; */
+
+}
+#about .about-content .fa-arrow-right{
+    color: white;
+    font-size: 20px;
+    padding-right: 50px;
+
+}
+/* Services styling */
+#services .card{
+    border-radius: 30px;
+    margin-bottom: 50px;
+    border-left: 5px double orangered;
+    border-top: 3px double orangered;
+}
+
+#services .card.img-service{
+    margin-left: 30%;
+}
+
+#services .card img{
+    border-radius: 50%;
+    padding: 30% 20% 5% 10%;
+    
+    border-left:5px double white;
+    border-right: 5px solid white;  
+
+}
+#services button{
+    border: 1px solid white;
+    background: linear-gradient( 121deg, #240b36, #c31432);
+    border-radius: 10px;
+
+}
+/* Contact us styling */
+#contact{
+    margin: 30px;
+}
+#contact .fa{
+    color: white;
+    font-size: 30px;
+}
+#contact .contact-form{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+}
+#contact .contact-form button{
+    border: 1px solid white;
+    background: linear-gradient( 121deg, #240b36, #c31432);
+
+}
+#services button{
+    border: 1px solid white;
+    background: linear;
+}
+
+/* Testimonial styling */
+
+
+/* Footer styling */
+#footer .fa-ul .f-icon{
+    padding-right: 8000px;
+}
+
+#footer img{
+    border-radius: 10%;
+    margin-top: 10px;
+    border-left:5px solid white;
+    border-right: 5px solid white;
+    
+}
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:992px){
+    #nav-bar .nav-link
+{
+    font-size: 14px;    
+    
+}
+#nav-bar .social-links a{
+    font-size: 25px;
+    padding-left: 5px;
+}
+#about .about-content{
+    padding: 50px 0;
+}
+#footer img{
+    margin-top: 80px;
+}
+
+
+}
+@media(min-width:576px) and (max-width:768px){
+
+#contact .contact-form{
+    align-items: center;
+    padding-left: 80px;
+}
+
+}

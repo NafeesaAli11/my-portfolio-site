@@ -1,0 +1,133 @@
+body{
+    height: auto;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient( 121deg, #240b36, #c31432);
+}
+#nav-bar span{
+  color: orangered;
+  font-size: 30px;
+}
+#nav-bar ul .active .nav-link {
+  color: orangered;
+}
+
+#nav-bar .nav-link
+{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+} 
+#nav-bar .social-links a{
+    font-size: 30px;
+    padding-left: 10px;
+    color: white;
+}
+/* Banner styling */
+#banner{
+    background: rgba(0, 255, 242, 0.1);
+    border: 0 0 30% 40% ;
+    height: auto;
+  } 
+  #banner .banner-content{
+    margin-top: 20px;
+  }
+ #banner .banner-content button{
+    border: 1px solid white;
+    background: linear-gradient( 110deg, #240b36, #c31432);
+    font-size: 20px;
+
+ }
+  
+  #banner img{
+    margin-left: 0px;
+    height: 350px; 
+    margin-bottom: 100px;
+  }
+  #banner .banner-content  button{
+    background: linear-gradient(to right, black, #ff004d);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+  }
+  #banner .banner-content  button:hover{
+    font-size: large;
+    background: linear-gradient( 121deg, #240b36, #c31432);
+  }
+
+/* Tab Styling */
+#tabs .experience-content, .skills-content, .education-content{
+  background: linear-gradient(to right, #240b36, #c31432);
+  border-radius: 5px;
+}
+#tabs button {
+  background: linear-gradient(to right, #240b36, #c31432);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+#tabs button:hover{
+  font-size: large;
+  text-decoration: underline;
+}
+  
+/* Footer styling */
+#footer .fa-ul .f-icon{
+  padding-right: 8000px;
+}
+
+#footer img{
+  border-radius: 10%;
+  margin-top: 10px;
+  border-left:5px solid white;
+  border-right: 5px solid white;
+  
+}
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:992px){
+  #nav-bar .nav-link
+{
+  font-size: 14px;    
+  color: black;
+}
+#nav-bar .social-links a{
+  font-size: 25px;
+  padding-left: 5px;
+}
+#about .about-content{
+  padding: 50px 0;
+}
+#footer img{
+  margin-top: 80px;
+}
+
+
+}
+
+/* Media Queries */
+@media(min-width:768px) and (max-width:992px){
+    #nav-bar .nav-link
+{
+    font-size: 14px;    
+    color: bla;
+}
+#nav-bar .social-links a{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+}
+@media(min-width:375px) and (max-width:768px){
+
+    #banner .banner-content{
+        margin: 30px 0px 30px 60px;
+      }
+}
+
+@media(min-width:320px) and (max-width:423px){
+
+  
+}
+

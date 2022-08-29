@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="graphics.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- fontawsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" integrity="sha512-YTuMx+CIxXa1l+j5aDPm98KFbVcYFNhlr2Auha3pwjHCF1lLbY9/ITQQlsUzdM1scW45kHC5KNib4mNa1IFvJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+      <div id="nav-bar" class="container"> 
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <a class="navbar-brand fs-5 text-white" href="main.html"> <span>N</span> PORTFOLIO </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="main.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactme.html">Contact Me</a>
+                </li>
+                <div class="dropdown nav-item active">
+                  <a class="nav-link  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="web.html">Web-Services</a>
+                    <a class="dropdown-item" href="graphics.html">Graphic Services</a>
+                    <a class="dropdown-item" href="ux.html">UI/UX Services</a>
+                  </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonial.html">Testimonial</a>
+                </li>
+            </ul>
+            <div class="social-links">
+                <a href=""> <i class="fa fa-google"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+            </div>
+            </div>
+        </nav>  
+    </div>     
+        <div id="banner">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 m-sm-auto">
+                <div class="banner-content">
+                  <h2 class="title text-white fw-bold">Graphics  Portfolio</h2>
+                  <p class="lead text-white fw-bold">Read our terms below to learn more about your rights and responsibilities as a Dribbble user.</p>
+                  <button class="btn  fw-bold text-white">Explore Now</button>
+                </div>
+              </div>
+              
+              <div class="col-md-6 m-sm-auto mt-md-5">
+                <div class="banner-img">
+                  <img src="graphics/g3.png"  class="img-fluid mb-4" alt=""> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- MAIN (Center website) -->
+<div class="main container text-center">
+  <h2 class="text-white">PORTFOLIO</h2>
+  <div id="myBtnContainer">
+    <button class="btn actives " onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('banner')"> banner</button>
+    <button class="btn" onclick="filterSelection('post')"> post</button>
+    <button class="btn" onclick="filterSelection('broucher')"> broucher</button>
+    <button class="btn" onclick="filterSelection('cards')"> Business Cards</button>
+  </div>
+
+<!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column banner col-md-4 ">
+        <div class="content ">
+            <img src="images/graphics-images/3.webp" alt="banner" style="width:100%">
+            <h4>Lights</h4>
+            <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column banner col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/b1.jpeg" alt="banner" style="width:100%">
+          <h4>Lights</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column banner col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/b2.jpeg" alt="banner" style="width:100%">
+          <h4>Forest</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      
+      <div class="column post col-md-4">
+        <div class="content">
+          <img src="images/graphics-images/1.webp" alt="post" style="width:100%">
+          <h4>fashion Sale</h4>
+          <p>Get Connect With New fashion......</p>
+        </div>
+      </div>
+      <div class="column post col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/2.webp" alt="post" style="width:100%">
+          <h4>Blessed Ramazan</h4>
+          <p>See all Blessings of ramazan with us......</p>
+        </div>
+      </div>
+      <div class="column post col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/post1.jpeg" alt="post" style="width:100%">
+        </div>
+      </div>
+      <div class="column post col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/post1.jpeg" alt="post" style="width:100%">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column broucher col-md-4">
+        <div class="content">
+          <img src="images/graphics-images/vrr.jpeg" alt="broucher" style="width:100%">
+          <h4>Girl</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column broucher col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/br4.jpeg" alt="broucher" style="width:100%">
+          <h4>Man</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column broucher col-md-4">
+        <div class="content">
+        <img src="images/graphics-images/br2.jpeg" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      
+      <div class="column card col-md-4">
+        <div class="content">
+        <img src="images/cards/1.png" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column card col-md-4">
+        <div class="content">
+        <img src="images/cards/2.png" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column card col-md-4  mt-2">
+        <div class="content">
+        <img src="images/cards/3.png" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column card col-md-4 mt-2">
+        <div class="content">
+        <img src="images/cards/4.png" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column card col-md-4 mt-2">
+        <div class="content">
+        <img src="images/cards/4.png" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column card col-md-4 mt-2">
+        <div class="content">
+        <img src="images/cards/5.png" alt="broucher" style="width:100%">
+          <h4>Woman</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      
+      
+    <!-- END GRID -->
+    </div>
+
+<!-- END MAIN -->
+</div>
+<!-- Footer section start -->
+<div id="footer" >
+      <footer class="text-white text-center text-lg-start" >
+        <div class="container p-4">
+          <div class="row mt-4">
+            <!-- Grid coulmn -->
+            <div class="col-lg-6 col-md-6  col-sm-12 mb-4 mb-md-0">
+                  <img src="/images/extra/web.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0 mt-md-5 footer-content ">
+              <h5 class="text-uppercase ">About company</h5>
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                voluptatum deleniti atque corrupti.
+              </p>
+              <p>
+                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                molestias.
+              </p>
+              <p>
+                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                molestias.
+              </p>
+            </div>
+            
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2);">
+            <!-- Dribble -->
+          <a type="button"  href="https://dribbble.com/nisaali893" target="_blank
+          " class="btn btn-floating  btn-lg" style="border-radius: 50%; background-color: orangered; color: white;"><i class="fa fa-dribbble"></i></a>
+          <!-- Twitter -->
+          <a type="button" href="https://www.behance.net/nisaali" target="_blank" class="btn btn-floating  btn-lg" style="border-radius: 50%; background-color: orangered; color: white;"><i class="fa fa-behance "></i></a>
+          <!-- Linkdin -->
+          <a type="button" href="https://www.linkedin.com/in/nafeesa-ali-2b6648201/"  target="_blank" class="btn btn-floating  btn-lg" style="border-radius: 50%; background-color: orangered; color: white;"><i class="fa fa-linkedin"></i></a>
+          <!-- facebook + -->
+          <a type="button" href="https://www.facebook.com/" target="_blank" class="btn btn-floating  btn-lg" style="border-radius: 50%; background-color: orangered; color: white;"><i class="fa fa-facebook"></i></a>
+        </div>
+        <!-- other links -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <a href="web.html" class="p-3" style="color: white;">web-services</a>
+            <a href="graphics.html" class="p-3" style="color: white;">graphic-services</a>
+            <a href="ux.html" class="p-3" style="color: white;">UI/UX services</a>
+            <a href="termsnconditon.html" class="p-3" style="color: white;">termsncondition</a>
+            <a href="privacy-policy.html" class="p-3" style="color: white;">privacy-policy</a>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          
+          <a class="text-white" href="">Nportfoilo.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+</div>
+<!-- Footer section end -->
+
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("actives");
+      current[0].className = current[0].className.replace(" actives", "");
+      this.className += " actives";
+    });
+  }
+</script>
+    <!-- js  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
